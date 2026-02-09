@@ -21,6 +21,7 @@ Configure Apache Tomcat
 Add Oracle JDBC Driver (ojdbc.jar) to your project
 Set up Oracle DB & tables
 Deploy project
+
 Open in browser: http://localhost:8080/LibraryManagementSystem/Menu.html
 
 Project Structure:
@@ -36,7 +37,6 @@ Output:
 
 
 <img width="456" height="124" alt="image" src="https://github.com/user-attachments/assets/b5ffc4cd-52d6-46c6-a591-7e627a369f0e" />
-
 
 <img width="286" height="300" alt="image" src="https://github.com/user-attachments/assets/8db49ce6-7a93-4686-9e1e-1603c10f963f" />
 
