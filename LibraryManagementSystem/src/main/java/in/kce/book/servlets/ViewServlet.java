@@ -20,8 +20,10 @@ public class ViewServlet extends HttpServlet {
 		response.setContentType("text/html");
         PrintWriter out=response.getWriter();
         HttpSession session=request.getSession();
-        BookBean bookBean=(BookBean)session.getAttribute("book");
+        BookBean bookBean=(BookBean)session.getAttribute("bookBean");
         out.print("<html><body>");
+		out.print("<h3>Book Information</h3>");
+        out.print("Book ISBN:"+bookBean.getIsbn());
         out.print("Book title:"+bookBean.getBookName());
         out.print("Author Name:"+bookBean.getAuthor().getAuthorName());
         out.print("Author Contact:"+bookBean.getAuthor().getContactNo());
@@ -30,3 +32,4 @@ public class ViewServlet extends HttpServlet {
 	}
 
 }
+
